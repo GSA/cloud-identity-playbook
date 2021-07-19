@@ -20,13 +20,19 @@ The intended audience contain a primary and secondary group. The playbook is wri
 
 ### How to use this playbook
 
-## Cloud Identity Overview
+## Cloud Identity Overview (Create an Exec-Style One-Pager from this section)
 - [ ] Cloud operating model comparison
 - [ ] Term Cloud identity either align with NIST or define in Playbook.
 - [ ] Identify how to consolidate identity services.
-- [ ] Common themes/call-outs throughout playbook: How does cloud identity support zero trust.
 
 ## Cloud Identity Journey
+Use themes/callouts.  
+  - Zero Trust Alignment
+  - Challenges aligned with Governance, Risk Management, Vendor Capability, Team/Workforce Capability
+  - Cloud Myths
+     - More secure on-prem = Zero Trust debunked this
+
+**MVP Content**
 - [ ] Define cloud integration journey. Using cloud services may not be ultimate solution for everything. Most agenices are either all on-premise or extended some identity services to a cloud provider. Journey should start all on-premise.
 - [ ] Include use of virtual directories.
 - [ ] Include multi-cloud considerations.
@@ -39,8 +45,12 @@ The intended audience contain a primary and secondary group. The playbook is wri
   c. Define cloud identity strategy. Prevent capability sprawl.
 2. Modernize / Plan Service  
   a. Identity a capability to extend.
+  b. Security Analysis
 3. Architecture Considerations  
-  a. ?
+  a. Identity Management
+  b. Credential Management
+  c. Access Management
+  d. Governance
 4. Test  
   a. ?
 5. Deploy  
@@ -50,6 +60,19 @@ The intended audience contain a primary and secondary group. The playbook is wri
 ### Policies
 1. [Executive Order 14028 - Improving the Nation's Cybersecurity](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity)
 2. [Federal Cloud Computing Strategy](https://cloud.cio.gov/)
+3. [OMB Memo 19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf)
+
+### Standards
+1. [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
+2. [NIST Special Publication 800-210 - General Access Control Guidance for Cloud Systems](https://csrc.nist.gov/publications/detail/sp/800-210/final)
+
+### Guidance
+1. [NIST Interagency Report 8335 - Identity as a Service for Public Safety](https://csrc.nist.gov/publications/detail/sp/800-210/final)
+2. [ICAM Program Management Playbook](https://playbooks.idmanagement.gov/pm/)
+3. [Single Sign-On Playbook](https://playbooks.idmanagement.gov/docs/playbook-sso.pdf)
+4. [Digital Identity Risk Assessment Playbook](https://playbooks.idmanagement.gov/docs/playbook-dira.pdf)
+5. [National Security Agency Cybersecurity Information Sheet - Mitigation Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
 
 ## Examples and Templates
+?
 
