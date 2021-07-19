@@ -17,8 +17,7 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 
 ## Cloud Identity Overview (Create an Exec-Style One-Pager from this section)
 - [ ] Cloud operating model comparison
-- [ ] Term Cloud identity either align with NIST or define in Playbook.
-- [ ] Identify how to consolidate identity services.
+- [ ] Define term Cloud identity. Either align with NIST or define in Playbook.
 
 ## Cloud Identity Journey
 Use themes/callouts.  
@@ -31,6 +30,7 @@ Use themes/callouts.
 - [ ] Define cloud integration journey. Using cloud services may not be ultimate solution for everything. Most agenices are either all on-premise or extended some identity services to a cloud provider. Journey should start all on-premise.
 - [ ] Include use of virtual directories.
 - [ ] Include multi-cloud considerations.
+- [ ] Identify how to consolidate identity services.
 - [ ] Secondary Content - Non-person entity interaction and use.
 
 ### Journey Steps
