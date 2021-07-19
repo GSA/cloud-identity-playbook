@@ -33,22 +33,38 @@ Use themes/callouts.
 - [ ] Identify how to consolidate identity services.
 - [ ] Secondary Content - Non-person entity interaction and use.
 
-### Journey Steps
-1. Gain Support  
-  a. Develop department policy  
+## Journey Steps
+
+### Gain Support  
+
+  a. Develop department policy
+  
   b. Draft a business case including funding consideration.
+  
   c. Define cloud identity strategy. Prevent capability sprawl.
-2. Modernize / Plan Service  
+
+### Modernize / Plan Service
+
   a. Identify a capability to extend.
+  
   b. Security Analysis
-3. Architecture Considerations  
+
+### Architecture Considerations  
+
   a. Identity Management
+  
   b. Credential Management
+  
   c. Access Management
+  
   d. Governance
-4. Test  
+
+### Test  
+
   a. ?
-5. Deploy  
+
+### Deploy  
+
   a. ?
 
 ## Policies, Standards, and Guidance
