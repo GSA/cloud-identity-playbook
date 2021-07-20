@@ -23,6 +23,8 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 Use themes/callouts.  
   - Zero Trust Alignment
   - Challenges aligned with Governance, Risk Management, Vendor Capability, Team/Workforce Capability
+    - Enforcing identity governance - Mapping users to roles/lifecycle management.
+    - Enforcing least privilege - Understanding full access of a role within IaaS/PaaS.
   - Cloud Myths
      - More secure on-prem = Zero Trust debunked this
 
