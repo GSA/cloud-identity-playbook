@@ -8,29 +8,29 @@ This playbooks contains both a cloud identity 101 and a journey map used by agen
 About a page that summarizes the playbook.
 
 ### Key Terms
-- **Cloud Identity** - 
-- **Identity as a Service** - 
-- **Cloud Operating Model** - 
-- **X-as-a-Service (XaaS)** - General reference to mean any cloud-hosted service such as IaaS, PaaS, or SaaS.
+- **Cloud Identity** - Broad term to define activities that extend on-premise identity services to a cloud provider and also identity processes in cloud operated services.
+- **Cloud Computing** - A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+- **Cloud Service Model** - A Cloud Service Provider service model that includes Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS).
+- **Identity as a Service** - Industry term for Software-as-a-Service providers of ICAM services.
 
 ### Audience
 This playbook is written for Agency ICAM Program Managers as the primary audience. The below table lists secondary audience members and how to engage them with this playbook.
 
 | Stakeholder | Stakeholder Type | Engagement Point |
 | ----------- | ---------------- | ---------------- |
-| ICAM Steering Committee | Agency Governance Group | Need enterprise governance of all agency identities to reduce redundant identity processes. |
+| ICAM Steering Committee | Agency Governance Group | The enterprise should govern all agency identities to reduce cyber risk. |
 | Business Line Program Managers | Interested Party | Create a unified user experience by leveraging existing enterprise ICAM services. |
 | Cloud Management Office | Office | Integrate your identity processes with existing enterprise ICAM services. |
-| Security Management Office | Office | Generate a holistic view of security activities and events by leveraging enterprise ICAM services. |
+| Security Management Office | Office | Generate a holistic view of security activities and events across platforms and environments. |
 | DevOps Office | Office | Secure and automate DevOps identities. |
 
 ### Disclaimer
 This playbook was developed by the Cloud Identity Working Group of the Federal CISO Council Identity, Credential, and Access Management subcomittee in collaboration with the GSA Data Center and Cloud Optimization Initiative (DCCOI). This playbook is meant to help U.S. Federal Executive Branch agenices understand and plan use of cloud infrastructure as it relates to the [FICAM Architecture Services Framework](https://playbooks.idmanagement.gov/arch/services/). This playbook is not official policy or mandated action and does not provide authoritative information technology terms. This playbook includes best practices to supplement existing federal policies and builds upon [Executive Order 14028](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity) and [Office Management and Budget Memorandum 19-17](https://www.bing.com/search?q=omb+memo+19-17&cvid=d6a3d59cfc214bc383193a26f643e239&aqs=edge.0.69i59j0.1774j0j4&FORM=ANAB01&PC=U531), as well as existing federal identity guidance and playbook. Subject areas with intersecting scope, such as cloud operating models, Federal Risk and Authorization Management Program (FedRAMP) and enterprise governance, are considered only to the extent that they relate to either operating FICAM services or performing FICAM processes in a cloud operating model.
 
-## Cloud Identity Overview (Create an Exec-Style One-Pager from this section)
+## Cloud Identity 101 (Create an Exec-Style One-Pager from this section)
 - [ ] Cloud operating model comparison
 - [ ] Link to DCCOI Cloud Strategy Guide on CIO.gov and Cloud Smart Strategy
-- [ ] Define term Cloud identity. Either align with NIST or define in Playbook.
+- [ ] Cloud Identity encompasses extending on-premise idenities to cloud identity providers and managing ICAM process in XaaS.
 
 ## Cloud Identity Journey
 Use themes/callouts.  
@@ -108,9 +108,10 @@ Use themes/callouts.
 1. [Digital Identity Risk Assessment Playbook](https://playbooks.idmanagement.gov/docs/playbook-dira.pdf)
 2. [FedRAMP Digital Identity Requirements (Version 1.0)](https://s3.amazonaws.com/sitesusa/wp-content/uploads/var/www/html/sites/www/app/wordpress/wp-content/blogs.dir/482/files/2016/06/FedRAMP_Digital_Identity_Requirements_v1.0.pdf)
 3. [ICAM Program Management Playbook](https://playbooks.idmanagement.gov/pm/)
-4. [NIST Interagency Report 8335 - Identity as a Service for Public Safety](https://csrc.nist.gov/publications/detail/sp/800-210/final)
-5. [National Security Agency Cybersecurity Information Sheet - Mitigation Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
-6. [Single Sign-On Playbook](https://playbooks.idmanagement.gov/docs/playbook-sso.pdf)
+4. [General Services Administration - Cloud Information Center](https://cic.gsa.gov/acquisitions/pricing)
+5. [NIST Interagency Report 8335 - Identity as a Service for Public Safety](https://csrc.nist.gov/publications/detail/nistir/8335/draft)
+6. [National Security Agency Cybersecurity Information Sheet - Mitigation Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
+7. [Single Sign-On Playbook](https://playbooks.idmanagement.gov/docs/playbook-sso.pdf)
 
 ## Examples and Templates
 ?
