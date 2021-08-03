@@ -84,9 +84,10 @@ Use themes/callouts.
   
   d. Governance
 
-### Test  
+### Plan a Pilot  
 
-  a. ?
+  a. Document a manual process
+  b. Idenify how to automate it.
 
 ### Deploy  
 
