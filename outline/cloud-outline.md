@@ -6,6 +6,16 @@ This playbooks contains both a cloud identity 101 and a journey map used by agen
 
 ## Executive Summary
 About a page that summarizes the playbook.
+#SaaS Bullets from Bala:
+SaaS for Cloud Identity:
+
+Most of the agencies may have some sort of Identity and Access Management system already in place.  Moving to the cloud there are options for agencies to evaluate.
+
+  1. Move the Identity and Access Management system to the cloud and continue with the service that agency already support.
+
+  2. Agencies can look at the SaaS providers that offer Identity services like Authentication and Federation, Identity Store to take advantage of the capabilities that comes with the offerings the vendors provide.
+    a. Agencies need to consider if they would like to keep the Identity store within their network boundary whether it is on-prem or in their private cloud.
+    b. The other option is they can adopt to the SaaS provider offerings and store the identity in their cloud hosting.
 
 ### Key Terms
 - **Cloud Identity** - Broad term to define activities that extend on-premise identity services to a cloud provider and also identity processes in cloud operated services.
