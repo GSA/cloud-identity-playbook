@@ -40,9 +40,12 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 
 ## Cloud Identity 101 
 *(One Page Executive Briefing based on this section)*
+- Why cloud identity?
 - Cloud operating model comparison
 - Links to [DCCOI Cloud Strategy Guide](https://community.max.gov/display/Egov/Agency+IT+Modernization%3A+Educational+Resources+Building+Blocks) on CIO.gov and [Cloud Smart Strategy](https://cloud.cio.gov/strategy/)
 - Explanation of how Cloud Identity encompasses extending on-prem identities to cloud identity providers and manages the ICAM process in XaaS
+- Graphic that shows cloud management model for ICAM.
+- Graphi that shows modern cloud access.
 
 ## Cloud Identity Journey (Holistic Concepts)
 ### Use themes/callouts.  
@@ -58,15 +61,25 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 - **Include use of virtual directories**
 - **Include multi-cloud considerations**
 - **Identify how to consolidate identity services**
-- **Secondary Content** e.g., non-person entity (NPE) interaction and use
+- NPE
+    - Machine to machine (servers and end user devices)
+    - RPA
+    - Service accounts
 
 ## Journey Steps
 
 ### Gain Support  
-1. **Develop department policy**
-2. **Draft a business case including funding consideration**
-3. **Define cloud identity strategy**
+1. Highlight outcomes in user stories. Explain in simple terms what and how operations will improve.
+2. Identify what is success and set metrics based on operational challenges (e.g. length of time to deprovision account, # of orphaned accounts, length of time to reset password, # of roles under management, # of applications integrated, # of identity manual identity processes, # of manual processes automated). Track metrics by operations efficiency (how you're improving) and operational volume (size of transactions). Align this back to federal policy and agency mission objectives. Examples may include
+    - Audit and compliance performance
+    - Cost savings or diversion
+    - Operational improvements (fewer manual tasks, faster review cycles, faster identity processes).
+    - Support federal mandate (e.g. Zero Trust, Cloud Smart)
+4. **Develop department policy**
+5. **Draft a business case including funding consideration**
+6. **Define cloud identity strategy and goals**
    1. *Prevent capability sprawl*
+   2. 
 
 ### Plan Journey
 1. **Identify a capability to extend**
@@ -78,23 +91,30 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
    2. *Additional web traffic monitoring* - Per TIC, traffic must be monitored and analyzed for malicious activity. This may mean increasing VPN usage for on network monitoring, acquiring a cloud monitoring solution such as a Cloud Access Security Broker or Secure Access Service Edge solution for off-network monitoring, and potentially additional Security Information and Event Management storage for the increased traffic.
 
 ### Architecture Considerations  
+- Call out DIRA to identity NIST levels.
 1. **Identity Management**
    1. *Entitlement Management* - Sometimes referred to as Identity Governance, it can be more complex in IaaS and PaaS than with on-prem. Plan for this and the use of tools which leverage entitlement management protocols such as [System for Cross-domain Identity Management (SCIM)](http://www.simplecloud.info/) to sync information between your directory and applications.
    2. *Provisioning and Deprovisioning* - Just because a user is removed from a directory or SSO, that account may still exist in the XaaS. Leverage automated lifecycle management processes that enable lifecycle management simultaneously or a manual workflow integrated with an ITSM to track and audit processes.
    3. *Budgeting Quick Tip* - Most identity products are priced by user, number of authentications, number of integrated applications, or per application connector. Factor this into your budget.
 2. **Credential Management**
-3. **Access Management**
+   1. Use the best authenticator for the use case
+4. **Access Management**
    1. *User Access to XaaS* - Users must be able to reach the XaaS. This means creating network paths for users coming from an agency network (direct or through VPN), but also potentially for users not on an agency network. "Use Case - Gmail is accessible off-network but requires SSO which is only accessible on network".
    2. *Protocols* - Access comes in many protocols. Monitor access attempts over all possible protocols such as https and ssh. Also, factor in the use of port translation technology.
    3. *Federation*
-4. **Governance**
+5. **Governance**
 
-### Test  
+### Test and Deploy
 1. **Plan a Pilot**
    1. *Document a manual process*
    2. *Identify how to automate it*
 
   ***Additional Sub-sections needed***
+  1. Document existing process
+  2. Review process workflow
+  3. Identify challenge / pain point
+  4. Update workflow with desired outcome
+  5. Implement workflow
 
 ### Deploy  
   ***Sub-sections needed***
@@ -107,9 +127,10 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 4. FICAM Governance Framework *(not yet published)*
 
 ### Standards
-1. [NIST Special Publication 800-145 - NIST Definition of Cloud Computing](https://csrc.nist.gov/publications/detail/sp/800-145/final)
-2. [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
-3. [NIST Special Publication 800-210 - General Access Control Guidance for Cloud Systems](https://csrc.nist.gov/publications/detail/sp/800-210/final)
+1. [NIST Special Publication 800-63 - Digital Identity Guidelines](https://csrc.nist.gov/publication/detail/sp/800-63/final)
+2. [NIST Special Publication 800-145 - NIST Definition of Cloud Computing](https://csrc.nist.gov/publications/detail/sp/800-145/final)
+3. [NIST Special Publication 800-207 - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
+4. [NIST Special Publication 800-210 - General Access Control Guidance for Cloud Systems](https://csrc.nist.gov/publications/detail/sp/800-210/final)
 
 ### Guidance
 1. [Digital Identity Risk Assessment Playbook](https://playbooks.idmanagement.gov/docs/playbook-dira.pdf)
