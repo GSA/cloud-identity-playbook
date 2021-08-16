@@ -45,7 +45,9 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 - Links to [DCCOI Cloud Strategy Guide](https://community.max.gov/display/Egov/Agency+IT+Modernization%3A+Educational+Resources+Building+Blocks) on CIO.gov and [Cloud Smart Strategy](https://cloud.cio.gov/strategy/)
 - Explanation of how Cloud Identity encompasses extending on-prem identities to cloud identity providers and manages the ICAM process in XaaS
 - Graphic that shows cloud management model for ICAM.
-- Graphi that shows modern cloud access.
+- Graphi that shows modern cloud access. traditional vs modern access. basic diagram of vpn to agency and then device to cloud and cloud to cloud communication.
+- Primary advantage to cloud services is moving from a capex to opex budget model. Capital Expenses include buying the resources to anticipate demand. More upfront cost in buying equipment and labor cost in configuration and operations. Operational Expense converts to more of a demand model where you pay for infrastructure based on real-time consumption rather than anticipating consumption.
+- Monitor activity in real-time and at rest.
 
 ## Cloud Identity Journey (Holistic Concepts)
 ### Use themes/callouts.  
@@ -96,13 +98,21 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
    1. *Entitlement Management* - Sometimes referred to as Identity Governance, it can be more complex in IaaS and PaaS than with on-prem. Plan for this and the use of tools which leverage entitlement management protocols such as [System for Cross-domain Identity Management (SCIM)](http://www.simplecloud.info/) to sync information between your directory and applications.
    2. *Provisioning and Deprovisioning* - Just because a user is removed from a directory or SSO, that account may still exist in the XaaS. Leverage automated lifecycle management processes that enable lifecycle management simultaneously or a manual workflow integrated with an ITSM to track and audit processes.
    3. *Budgeting Quick Tip* - Most identity products are priced by user, number of authentications, number of integrated applications, or per application connector. Factor this into your budget.
+   4. Critical to conduct an on-prem directory clean-up. 
 2. **Credential Management**
    1. Use the best authenticator for the use case
 4. **Access Management**
    1. *User Access to XaaS* - Users must be able to reach the XaaS. This means creating network paths for users coming from an agency network (direct or through VPN), but also potentially for users not on an agency network. "Use Case - Gmail is accessible off-network but requires SSO which is only accessible on network".
    2. *Protocols* - Access comes in many protocols. Monitor access attempts over all possible protocols such as https and ssh. Also, factor in the use of port translation technology.
    3. *Federation*
+   4. Prevent access to personal instances.
+   5. RBAC
+   6. Admin portals may be secured differenlty for COOP. Break glass admin accounts. Not linked to an individual and uses MFA that is different form other methods.
 5. **Governance**
+   1. Policies to monitor for configuration changes. Controls to prevent misconfiguration (e.g. default private).
+   2. Training admins on existing policies and when policies change.
+
+- Any change to the user experience should come with communication and potentially training.
 
 ### Test and Deploy
 1. **Plan a Pilot**
@@ -138,7 +148,7 @@ This playbook was developed by the Cloud Identity Working Group of the Federal C
 3. [ICAM Program Management Playbook](https://playbooks.idmanagement.gov/pm/)
 4. [General Services Administration - Cloud Information Center](https://cic.gsa.gov/acquisitions/pricing)
 5. [NIST Interagency Report 8335 - Identity as a Service for Public Safety](https://csrc.nist.gov/publications/detail/nistir/8335/draft)
-6. [National Security Agency Cybersecurity Information Sheet - Mitigation Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
+6. [National Security Agency Cybersecurity Information Sheet - Mitigating Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
 7. [Single Sign-On Playbook](https://playbooks.idmanagement.gov/docs/playbook-sso.pdf)
 
 ## Examples and Templates
