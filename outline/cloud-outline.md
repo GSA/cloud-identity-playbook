@@ -72,6 +72,11 @@ The adoption of cloud services also adds challenges as well and one of those cha
 7. - **Zero Trust Alignment** - ICAM capabilities to support zero trust and intersection with cloud. Potential call-out to TIC and CASB. NIST 800-207 page 9 graphic with ICAM callouts
 
 ### Plan Journey
+
+The first step in any journey is identifying the desitination. Your agency can take an incremental approach and identify single services or a complete migration with incremental steps. The ICAM Practice Areas and Services Framework is a great starting point to map business requirements to technical solutions.
+
+[![Five boxes that each correspond to a FICAM practice area or supporting element. Each box lists the agency services that correspond to that area. You can find the services and definitions in the following pages.](../../assets/ficamservices.png)](../../assets/arch/services/ServicesOverview.png){:target="_blank"}{:rel="noopener noreferrer"}
+
 1. **Identify a capability to extend**
    1. *Representative architecture*
    2. Link to FedRAMP and key terms to search.
